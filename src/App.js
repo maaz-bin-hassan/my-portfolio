@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
-import Footer from './components/footer';
 import HeroSection from './components/HeroSection';
+import Contacts from './components/Contacts';
 function App() {
   return (
     <div className="App">
@@ -12,8 +12,9 @@ function App() {
           react Lab 1
         </p>
        <Header/>
-       <Footer/>
+       
        <HeroSection/>
+       <Contacts/>
       </header>
     </div>
   );
