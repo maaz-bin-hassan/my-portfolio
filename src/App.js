@@ -3,19 +3,18 @@ import './App.css';
 import Header from './components/header';
 import HeroSection from './components/HeroSection';
 import Contacts from './components/Contacts';
+import Projects from './components/Projects';
+import Reviews from './components/Reviews';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          react Lab 1
-        </p>
+    <div className="app-container">
+      
        <Header/>
-       
        <HeroSection/>
+       <Projects/>
+       <Reviews/>
        <Contacts/>
-      </header>
+     
     </div>
   );
 }
